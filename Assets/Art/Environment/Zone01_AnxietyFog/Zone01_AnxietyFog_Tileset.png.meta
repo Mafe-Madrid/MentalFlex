@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: f939830582a7c184b8cdc79813ae031a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1123
+        width: 222
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 8, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9599ba9504f9f1747ac4e76101d43200
+      internalID: -1884552834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1131
+        width: 140
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ec367bc5d5cff439f58505af747b31
+      internalID: 1592359821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1013
+        width: 441
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1937ab0e904b1942a35c478f9efa8f4
+      internalID: 773338970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 874
+        width: 131
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3e2981b2475a144bfc29d75a2c8f62
+      internalID: 1495311155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 884
+        width: 236
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b69e91faab88da40a22ff2f17dcf0b1
+      internalID: -2102007422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 859
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c65ed1a2655994286feacb90e68c51
+      internalID: 952908581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 453
+        width: 92
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4288a65020ae743a8572f6c67a23d1
+      internalID: 2030025994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 241
+        width: 150
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a9d668d0fa8b54589114daa0620b80
+      internalID: 1140487544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 352
+        width: 83
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35d4b0551f0d6642ba7faf48cf93f14
+      internalID: -1648733629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 564
+        width: 79
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47facb0f4db9f7d439a36a302a717478
+      internalID: -636288347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 731
+        width: 109
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09933f296b44264fb0f91fbb5446584
+      internalID: 171106182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 632
+        width: 107
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360b0b26c60d4f342b7baf873efc49af
+      internalID: -694768806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 535
+        width: 73
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2c6d77444ee1d458428024eeb5183a
+      internalID: 217037458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369
+        width: 269
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c050e6cbe0bda4499e4f71d0db42ecd
+      internalID: 847679195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1139
+        width: 152
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ccb130d84d8d34896c0612bb02849e
+      internalID: -1449243565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 946
+        width: 286
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5517b4677d25335499da7b18c91b68b1
+      internalID: 841163511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 487
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4126d6c7866964eabf63fcfd5c29cc
+      internalID: -778115663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 353
+        width: 73
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1fac625121fd64583af66883bff713
+      internalID: 188432741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 733
+        width: 169
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a649ead617c4c0f4ca3687681deb0db4
+      internalID: -142097586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 753
+        width: 91
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59e1358854f0734599b4b635aecd135
+      internalID: 1020121038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 491
+        width: 161
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bdeaef0b1562d49ae55cca2ee72a8c
+      internalID: 605369746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone01_AnxietyFog_Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 226
+        width: 201
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093f6c7e5e21a924f85d38d5b2bc4b70
+      internalID: -378892787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3bd16615c5394a94bbc750b5015536b2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Zone01_AnxietyFog_Tileset_0: -1884552834
+      Zone01_AnxietyFog_Tileset_1: 1592359821
+      Zone01_AnxietyFog_Tileset_10: 171106182
+      Zone01_AnxietyFog_Tileset_11: -694768806
+      Zone01_AnxietyFog_Tileset_12: 217037458
+      Zone01_AnxietyFog_Tileset_13: 847679195
+      Zone01_AnxietyFog_Tileset_14: -1449243565
+      Zone01_AnxietyFog_Tileset_15: 841163511
+      Zone01_AnxietyFog_Tileset_16: -778115663
+      Zone01_AnxietyFog_Tileset_17: 188432741
+      Zone01_AnxietyFog_Tileset_18: -142097586
+      Zone01_AnxietyFog_Tileset_19: 1020121038
+      Zone01_AnxietyFog_Tileset_2: 773338970
+      Zone01_AnxietyFog_Tileset_20: 605369746
+      Zone01_AnxietyFog_Tileset_21: -378892787
+      Zone01_AnxietyFog_Tileset_3: 1495311155
+      Zone01_AnxietyFog_Tileset_4: -2102007422
+      Zone01_AnxietyFog_Tileset_5: 952908581
+      Zone01_AnxietyFog_Tileset_6: 2030025994
+      Zone01_AnxietyFog_Tileset_7: 1140487544
+      Zone01_AnxietyFog_Tileset_8: -1648733629
+      Zone01_AnxietyFog_Tileset_9: -636288347
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

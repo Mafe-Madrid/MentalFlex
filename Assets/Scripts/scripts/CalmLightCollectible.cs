@@ -15,18 +15,18 @@ public class CalmLightCollectible : MonoBehaviour
         // Check if the object colliding with the collectible is the player
         if (collision.CompareTag("Player"))
         {
-            if (AudioManager.instance != null && collectSound != null)
+            if (AudioManager.Instance != null && collectSound != null)
             {
-                AudioManager.instance.PlaySFX(collectSound);
+                AudioManager.Instance.PlaySFX(collectSound);
             }
 
             // Increase the global count of collected light items
             collectedLights += lightValue;
 
             // Update the user interface counter on the screen via UIManager
-            if (UIManager.instance != null)
+            if (UIManager.Instance != null)
             {
-                UIManager.instance.UpdateCalmLights(collectedLights, totalLights);
+                UIManager.Instance.UpdateCalmLights(collectedLights, totalLights);
             }
 
             // Destroy the collectible object from the scene 

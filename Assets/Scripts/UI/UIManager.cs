@@ -20,11 +20,11 @@ public class UIManager : MonoBehaviour
     }
 
     // Updates the light counter text
-    public void UpdateCalmLights(int count)
+   public void UpdateCalmLights(int current, int total)
     {
         if (calmLightsText != null)
         {
-            calmLightsText.text = "Calm Lights: " + count;
+            calmLightsText.text = "Calm Lights: " + current + " / " + total;
         }
     }
 

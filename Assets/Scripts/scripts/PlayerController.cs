@@ -1,108 +1,127 @@
-using NUnit.Framework;
-using System.Text.RegularExpressions;
 using UnityEngine;
-using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
-///<summary>
-///Controls player movement, jumping, and emotional regulation skill activatiom.
-///Author: Jasbleidy Mayerly Rodriguez Medina
-///</summary>
+/// <summary>
+/// Controls player movement, jumping, animations,
+/// visual direction, and emotional regulation skill activation.
+/// </summary>
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement Settings")]
-
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
 
-    [Header("Ground check")]
-
+    [Header("Ground Check")]
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
     private bool isGrounded;
 
-    [Header("Audio Clips (Local Reference)")]
+    [Header("Visual")]
+    public SpriteRenderer abanSprite;
+    public Animator abanAnimator;
 
+    [Header("Audio Clips")]
     public AudioClip jumpSound;
     public AudioClip skillSound;
 
     [Header("Skill Settings")]
-
     public KeyCode skillKey = KeyCode.E;
     public bool isSkillActive = false;
 
     private Rigidbody2D rb;
     private float horizontalInput;
 
-    void Start()
+    private void Start()
     {
-        // Cache the Rigidbody2D component attached to the player
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    private void Update()
     {
-        // Capture horizontal input from standard axes (A / D or Left/ Right arrows)
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
-        // Check if the player is touching the ground layer using an overlap circle
+        // Check if the player is touching the ground
         if (groundCheck != null)
         {
-
-            isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+            isGrounded = Physics2D.OverlapCircle(
+                groundCheck.position,
+                groundCheckRadius,
+                groundLayer
+            );
         }
 
-        // Trigger jump if jump button is pressed and the player is grounded
+        // Update animations
+        if (abanAnimator != null)
+        {
+            abanAnimator.SetBool("IsGrounded", isGrounded);
+            abanAnimator.SetFloat("Speed", Mathf.Abs(horizontalInput));
+        }
+
+        // Jump
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             Jump();
         }
 
-        // Trigger emotional regulation skill if assigned key is pressed and skill is ready
+        // Emotional regulation skill
         if (Input.GetKeyDown(skillKey) && !isSkillActive)
         {
             ActivateRegulationSkill();
         }
+
+        UpdateFacingDirection();
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        // Apply physics-based horizontal velocity while maintaining current vertical velocity
-        rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y); 
+        rb.velocity = new Vector2(
+            horizontalInput * moveSpeed,
+            rb.velocity.y
+        );
+    }
+
+    private void UpdateFacingDirection()
+    {
+        if (abanSprite == null)
+            return;
+
+        if (horizontalInput > 0)
+        {
+            abanSprite.flipX = false;
+        }
+        else if (horizontalInput < 0)
+        {
+            abanSprite.flipX = true;
+        }
     }
 
     private void Jump()
     {
-        // Apply vertical force for jumping
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        rb.velocity = new Vector2(
+            rb.velocity.x,
+            jumpForce
+        );
 
-        // Play jump sound effect if audio manager and sound clip are available
-        if (AudioManager.instance != null && jumpSound != null)
+        if (AudioManager.Instance != null && jumpSound != null)
         {
-            AudioManager.instance.PlaySFX(jumpSound);
+            AudioManager.Instance.PlaySFX(jumpSound);
         }
     }
 
     private void ActivateRegulationSkill()
     {
-        // Activate the regulation skill state
         isSkillActive = true;
-        Debug.Log("Emotional Regulation Skill Activated!");
 
-        // Play skill audio effect if available
-        if (AudioManager.instance != null && skillSound != null)
+        if (AudioManager.Instance != null && skillSound != null)
         {
-            AudioManager.instance.PlaySFX(skillSound);
+            AudioManager.Instance.PlaySFX(skillSound);
         }
 
-        // Reset the skill state after a 4-second delay
         Invoke(nameof(ResetSkill), 4f);
     }
 
     private void ResetSkill()
     {
-        // Deactivate the skill flag to allow reuse
-        isSkillActive = false;   
+        isSkillActive = false;
     }
 }
-
