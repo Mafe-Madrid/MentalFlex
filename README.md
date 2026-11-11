@@ -1,120 +1,116 @@
-# MentalFlex – Etapa 3
+# MentalFlex – Stage 3
 
-## Programación para Videojuegos
+## Video Game Programming
 
-**Curso:** Programación para Videojuegos  
-**Código:** 213027A  
-**Grupo:** 213027_5  
-**Proyecto:** MentalFlex  
-
----
-
-# Descripción del proyecto
-
-MentalFlex es un videojuego 2D de aventura y plataformas con estilo Pixel Art, orientado al bienestar emocional y al reconocimiento de las emociones.
-
-El jugador puede elegir entre tres avatares que representan diferentes estados emocionales:
-
-- **Aban:** ansiedad y abrumación.
-- **Trista:** tristeza y agotamiento.
-- **Fragita:** frustración y agitación.
-
-Durante el recorrido, el jugador debe superar obstáculos, interactuar con luces de calma, activar puntos de descanso y avanzar por diferentes zonas de la ciénaga hasta transformar progresivamente el entorno.
+**Course:** Video Game Programming  
+**Code:** 213027A  
+**Group:** 213027_5  
+**Project:** MentalFlex  
 
 ---
 
-# Objetivo de la Etapa 3
+# Project Description
 
-En esta etapa se trabajará en la implementación del videojuego en Unity, integrando:
+MentalFlex is a 2D adventure-platformer video game featuring a pixel-art style, focused on emotional well-being and the recognition of emotions.
 
-- Programación.
-- Arte 2D.
-- Mecánicas.
+Players can choose from three avatars, each representing a different emotional state:
+
+- **Aban:** anxiety and overwhelm.
+- **Trista:** sadness and exhaustion.
+- **Fragita:** frustration and agitation.
+
+Throughout the journey, players must overcome obstacles, interact with "calm lights," activate rest points, and progress through various areas of the swamp, gradually transforming the environment.
+
+---
+
+# Stage 3 Objective
+
+This stage focuses on the implementation of the video game in Unity, integrating:
+
+- Programming.
+- 2D Art.
+- Game mechanics.
 - Audio.
 - UI/UX.
-- Accesibilidad.
-- Inteligencia Artificial de uso declarado.
-- GitHub como sistema de control de versiones.
+- Accessibility.
+- Artificial Intelligence (with disclosed usage).
+- GitHub for version control.
 
 ---
 
-# Integrantes
+# Team Members
 
 ## Jasbleidy Mayerly Rodríguez Medina
 
-**Rol principal:** Diseñadora de videojuegos / Programadora
+**Primary Role:** Game Designer / Programmer
 
-### Responsabilidades
+### Responsibilities
 
-- Diseño y ajuste de mecánicas.
-- Movimiento del personaje.
-- Salto.
-- Obstáculos.
-- Reglas y sistemas de juego.
-- Apoyo al sistema de respawn.
-- Programación en Unity.
-- Pruebas.
-- Documentación.
-- Participación en el video final.
+- Design and refinement of game mechanics.
+- Character movement.
+- Jumping.
+- Obstacles.
+- Game rules and systems.
+- Support for the respawn system.
+- Programming in Unity.
+- Testing.
+- Documentation.
+- Participation in the final video.
 
 ---
 
 ## María Fernanda Madrid Mendivelso
 
-**Rol principal:** Artista 2D / Programadora
+**Primary Role:** 2D Artist / Programmer
 
-### Responsabilidades
+### Responsibilities
 
-- Diseño o adaptación de personajes.
+- Character design or adaptation.
 - Sprites.
-- Escenarios Pixel Art.
-- Objetos y obstáculos.
-- Luces de calma.
-- Puntos de descanso.
-- Integración de assets.
-- Programación de interacción con luces.
-- Apoyo al sistema de checkpoint y respawn.
-- Transformación visual del entorno.
-- Documentación del uso de IA.
-- Participación en el video final.
-
----
+- Pixel-art environments.
+- Objects and obstacles.
+- "Calm lights."
+- Rest points.
+- Asset integration.
+- Programming interactions with "calm lights."
+- Support for the checkpoint and respawn system.
+- Visual transformation of the environment.
+- Documentation of AI usage.
+- Participation in the final video. ---
 
 ## Ángela Gabriela Becerra Ortiz
 
-**Rol principal:** UI/UX, audio y accesibilidad
+**Primary role:** UI/UX, audio, and accessibility
 
-### Responsabilidades
+### Responsibilities
 
-- Diseño del HUD.
-- Contador de luces de calma.
-- Menús e interfaz.
+- HUD design.
+- "Calm light" counter.
+- Menus and interface.
 - Audio.
-- Efectos de sonido.
-- Subtítulos.
-- Control de volumen.
-- Señales visuales.
-- Accesibilidad.
-- Programación relacionada con UI y audio.
-- Documentación de accesibilidad.
-- Participación en el video final.
+- Sound effects.
+- Subtitles.
+- Volume control.
+- Visual cues.
+- Accessibility.
+- UI and audio-related programming.
+- Accessibility documentation.
+- Contribution to the final video.
 
 ---
 
-# Trabajo colaborativo
+# Collaborative Work
 
-Aunque cada integrante tiene un área principal, las tres participan en:
+Although each team member has a primary area of ​​focus, all three participate in:
 
-- Programación.
+- Programming.
 - GitHub.
-- Documentación.
-- Pruebas.
-- Integración del proyecto.
-- Sesión de crítica.
-- Revisión final.
-- Grabación del video demostrativo.
+- Documentation.
+- Testing.
+- Project integration.
+- Critique sessions.
+- Final review.
+- Recording the demonstration video.
 
-La división de tareas busca que cada integrante pueda avanzar de forma independiente en su área y posteriormente integrar todo en una sola versión del videojuego.
-
----
+The division of tasks is designed to allow each member to make independent progress in their respective area, with everything subsequently integrated into a single version of the video game.
 
