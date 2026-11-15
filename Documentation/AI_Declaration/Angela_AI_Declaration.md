@@ -1,18 +1,15 @@
-Declaración de uso de Inteligencia Artificial 
+Declaración de IA
+ Herramienta y versión utilizada: Claude  by Anthropic
+ Propósito:  Me ayudo a organizar los scripts en C# (UIManager.cs y controladores de audio), solucione algunas dudas respecto al inspector y por ultimo me guio en el trabajo sonoro del videojuego
+ Prompts literales utilizados en inglés:
+1.	“In my Unity UIManager script, add a ShowSubtitle(string message, float duration) method that uses a coroutine to display the text and hide it after the duration. Also add a TriggerVisualFeedback() method that makes a UI Image panel flash briefly and fade out slowly (no more than one flash per second, to comply with WCAG 2.3.1). Keep my existing methods and add English comments.”
+2.	"How can I write a C# script for a UIManager in Unity to update UI text elements like CalmLightsText and SubtitleText dynamically, and trigger a FlashPanel fade effect when events occur?"
+3.	"I need to check why my UIManager script in Unity is not updating the TextMeshPro elements correctly during gameplay. What public methods should I use and how do I link them properly?"
+4.	"How can I link a UI Slider component in Unity to control the background music volume dynamically using an AudioSource?"
+5.	"What is the best way to structure a SceneAudioController script in Unity to manage background music and multiple sound effects like jumps, checkpoints, and collections from the Inspector?"
+6.	"I have a problem where my audio controller or AudioManager is not playing sound effects properly when triggered, what could be causing this error in C#?"
+ Marcado de código y modificaciones manuales:
+Los códigos con el propósito de efectos de desvanecimiento se hicieron con ayuda de Claude, por eso se encontrarán comentarios que indican cuales son las partes con IA.
 
-Herramienta utilizada: ChatGPT 
 
-En este proyecto MentalFlex utilice la inteligencia artificial principalmente en la parte del desarrollo del diseño sonoro del juego, esta me ayuda a entender algunos términos difíciles de las correcciones del tutor, además me ayuda a solucionar los errores que contenían los scripts como AudioManager.cs, SceneAudioController.cs y UIManager.cs.
-Prompts realizados
 
-1.	¿Tengo un problema, el AudioManager no me produce el audio, que error debo tener?
-   
-2.	¿Cómo busco y asigno un AudioClip desde el Inspector de Unity?
-	
-3.	¿En mi versión de Unity no se encuentra mi AudioClip, como se puedo crearlo?
-   
-4.	¿Cómo puedo entender y corregir las observaciones del profesor sobre los scripts del juego?
-   
-Resultados por la inteligencia artificial 
-
-En el proyecto realizo en Unity se me presentación muchos temas nuevos donde algunas veces me encontraba perdida, asi  que la IA me ayudó a entender mejor los errores y a saber qué debía revisar en el proyecto, también me ofreció algunas explicaciones de como corregir algunos scripts , en la parte visual del Canvas, las opciones de accesibilidad, la edición de los audios en Audacity y la implementación y revisión final del código las realicé y adapté manualmente para el videojuego MentalFlex
