@@ -9,45 +9,32 @@ public class SceneAudioController : MonoBehaviour
     [SerializeField] private AudioClip checkpointSound;
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private AudioClip collectionSound;
-    [SerializeField] private AudioClip buttonClickSound;
 
     private void Start()
     {
+        // Sends the background music to the AudioManager when the scene starts
         if (backgroundMusic != null && AudioManager.Instance != null)
         {
             AudioManager.Instance.PlayMusic(backgroundMusic);
         }
     }
 
+    // Public methods for team members to trigger SFX easily
     public void PlayCheckpointSound()
     {
         if (checkpointSound != null && AudioManager.Instance != null)
-        {
             AudioManager.Instance.PlaySFX(checkpointSound);
-        }
     }
 
     public void PlayJumpSound()
     {
         if (jumpSound != null && AudioManager.Instance != null)
-        {
             AudioManager.Instance.PlaySFX(jumpSound);
-        }
     }
 
     public void PlayCollectionSound()
     {
         if (collectionSound != null && AudioManager.Instance != null)
-        {
             AudioManager.Instance.PlaySFX(collectionSound);
-        }
-    }
-
-    public void PlayButtonClickSound()
-    {
-        if (buttonClickSound != null && AudioManager.Instance != null)
-        {
-            AudioManager.Instance.PlaySFX(buttonClickSound);
-        }
     }
 }
