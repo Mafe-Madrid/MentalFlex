@@ -10,7 +10,7 @@ public class MainMenuController : MonoBehaviour
 
     public void ShowCredits()
     {
-        Debug.Log("Credits selected.");
+        SceneManager.LoadScene("SC_Credits");
     }
 
     public void ExitGame()

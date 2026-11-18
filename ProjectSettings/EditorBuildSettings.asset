@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SC_Zone01_AnxietyFog.unity
     guid: fc436c470337e784fa54794077ae9782
+  - enabled: 1
+    path: Assets/Scenes/SC_Credits.unity
+    guid: 3023d333d65608949b191693b8a05673
   m_configObjects: {}

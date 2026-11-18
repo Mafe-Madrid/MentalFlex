@@ -646,7 +646,6 @@ MonoBehaviour:
   checkpointSound: {fileID: 0}
   jumpSound: {fileID: 0}
   collectionSound: {fileID: 0}
-  buttonClickSound: {fileID: 8300000, guid: 9169c0f7e21c7994c8cc35d915d1db7e, type: 3}
 --- !u!4 &339345714
 Transform:
   m_ObjectHideFlags: 0
@@ -744,7 +743,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 398909357}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 649179998}
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_MethodName: ShowCredits
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &398909357
 MonoBehaviour:
   m_ObjectHideFlags: 0
