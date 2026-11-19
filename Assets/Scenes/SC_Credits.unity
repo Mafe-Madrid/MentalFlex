@@ -325,9 +325,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 196281970}
+      - m_Target: {fileID: 196281973}
         m_TargetAssemblyTypeName: CreditsController, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: BackToMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
