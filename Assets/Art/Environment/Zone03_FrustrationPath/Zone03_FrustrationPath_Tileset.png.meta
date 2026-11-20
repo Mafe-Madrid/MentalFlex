@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -121,18 +121,260 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Zone03_FrustrationPath_Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1117
+        width: 539
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66992fe03916f9640b7b4853f603c1f0
+      internalID: 1828150906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone03_FrustrationPath_Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1109
+        width: 530
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e996ccaa918cd5e44b3f65666913e01d
+      internalID: -1593780627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone03_FrustrationPath_Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 868
+        width: 367
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab7c0b19d82049469d28843ed3c1905
+      internalID: 1036665614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone03_FrustrationPath_Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 379
+        width: 198
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac0770efe1c6b74db5d5d94dea217ce
+      internalID: 1433638165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone03_FrustrationPath_Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 424
+        width: 423
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85496298d770d954593c2c273fe9bf1b
+      internalID: 738545079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone03_FrustrationPath_Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 195
+        width: 144
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579a15a77fab8064dbf6a5c8f6e05b09
+      internalID: 1891732536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone03_FrustrationPath_Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 209
+        width: 67
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63ee7695ac7d234b901f43470a0701a
+      internalID: 1119873819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone03_FrustrationPath_Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 244
+        width: 192
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f144cf25a16525f44b655e9c138276c5
+      internalID: 520870396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone03_FrustrationPath_Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 261
+        width: 167
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8210d0d6d094062468081bae0aba6a1e
+      internalID: 2005086395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone03_FrustrationPath_Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 389
+        width: 102
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac94f9a2cf2e5b54997c0cb63df5a597
+      internalID: -1760887456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone03_FrustrationPath_Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 874
+        width: 199
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c438309e60de294596d937284b039de
+      internalID: 1897059298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d5c57f7d8fa738444be1216b79f75477
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zone03_FrustrationPath_Tileset_0: 1828150906
+      Zone03_FrustrationPath_Tileset_1: -1593780627
+      Zone03_FrustrationPath_Tileset_10: 1897059298
+      Zone03_FrustrationPath_Tileset_2: 1036665614
+      Zone03_FrustrationPath_Tileset_3: 1433638165
+      Zone03_FrustrationPath_Tileset_4: 738545079
+      Zone03_FrustrationPath_Tileset_5: 1891732536
+      Zone03_FrustrationPath_Tileset_6: 1119873819
+      Zone03_FrustrationPath_Tileset_7: 520870396
+      Zone03_FrustrationPath_Tileset_8: 2005086395
+      Zone03_FrustrationPath_Tileset_9: -1760887456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
