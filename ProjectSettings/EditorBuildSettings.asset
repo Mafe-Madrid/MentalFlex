@@ -13,7 +13,16 @@ EditorBuildSettings:
     guid: 738ce0102ac42784f92f5bba466968de
   - enabled: 1
     path: Assets/Scenes/SC_Zone01_AnxietyFog.unity
+    guid: 5b0fc4bd59878f444826e9b58313af72
+  - enabled: 1
+    path: Assets/Scenes/Zone02_SadnessWaters.unity
     guid: fc436c470337e784fa54794077ae9782
+  - enabled: 1
+    path: Assets/Scenes/Zone03_FrustrationPath.unity
+    guid: 0b41bdf01352da840931e35d7aecf06e
+  - enabled: 1
+    path: Assets/Scenes/Zone04_CalmGlade.unity
+    guid: 136225aa05c12214d96d9f342a038321
   - enabled: 1
     path: Assets/Scenes/SC_Credits.unity
     guid: 3023d333d65608949b191693b8a05673

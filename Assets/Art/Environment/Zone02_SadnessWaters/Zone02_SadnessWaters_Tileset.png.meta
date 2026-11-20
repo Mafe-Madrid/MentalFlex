@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -121,18 +121,260 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Zone02_SadnessWaters_Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1115
+        width: 397
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06affc39431b9634bb8b77369921bf90
+      internalID: -257875606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone02_SadnessWaters_Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 852
+        width: 254
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399c8f50c8cf2634cb5150e0075d899a
+      internalID: -171160873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone02_SadnessWaters_Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 945
+        width: 89
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56231676ac4d32f43b3c37058756ff86
+      internalID: -1123045420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone02_SadnessWaters_Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1108
+        width: 207
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051324e15fea13c4f9c6923620f9b4c9
+      internalID: 1497890724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone02_SadnessWaters_Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 721
+        width: 182
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbe6eeb3e38c8646988f15aa603a979
+      internalID: 100867860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone02_SadnessWaters_Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 324
+        width: 158
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5d1c6062cb303449ccb447db6ccaa4
+      internalID: 747943404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone02_SadnessWaters_Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 313
+        width: 307
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3e72bf3e52083409bbd1f4b3a48783
+      internalID: -751198231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone02_SadnessWaters_Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 521
+        width: 133
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1524c49024c869743b788eacb134c7a1
+      internalID: -1098758917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone02_SadnessWaters_Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 862
+        width: 313
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18e33c3a6306354e8ee3556d4d654e5
+      internalID: 880087294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone02_SadnessWaters_Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 229
+        width: 118
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aaccce85fd88ac4dadbe0ce10ad4329
+      internalID: -1465267125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone02_SadnessWaters_Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 136
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3b2bfd22d7bc3468189f295a7df84f
+      internalID: 73788592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 023c171f5fa6f59409040d97990e2fab
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zone02_SadnessWaters_Tileset_0: -257875606
+      Zone02_SadnessWaters_Tileset_1: -171160873
+      Zone02_SadnessWaters_Tileset_10: 73788592
+      Zone02_SadnessWaters_Tileset_2: -1123045420
+      Zone02_SadnessWaters_Tileset_3: 1497890724
+      Zone02_SadnessWaters_Tileset_4: 100867860
+      Zone02_SadnessWaters_Tileset_5: 747943404
+      Zone02_SadnessWaters_Tileset_6: -751198231
+      Zone02_SadnessWaters_Tileset_7: -1098758917
+      Zone02_SadnessWaters_Tileset_8: 880087294
+      Zone02_SadnessWaters_Tileset_9: -1465267125
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

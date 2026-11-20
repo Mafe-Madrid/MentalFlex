@@ -419,7 +419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498e2c40aa660f04fb6eaaffc1e38906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3.25
+  moveSpeed: 4
   jumpForce: 9
   groundCheck: {fileID: 1536318963}
   groundCheckRadius: 0.2
@@ -626,8 +626,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aban: {fileID: 129974284}
-  trista: {fileID: 163920927}
-  fragita: {fileID: 1022363103}
+  trista: {fileID: 1022363103}
+  fragita: {fileID: 163920927}
 --- !u!1 &77523353
 GameObject:
   m_ObjectHideFlags: 0
