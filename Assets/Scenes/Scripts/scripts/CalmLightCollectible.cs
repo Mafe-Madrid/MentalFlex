@@ -37,27 +37,38 @@ public class CalmLightCollectible : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // Check if the object colliding with the collectible is the player
         if (!collision.CompareTag("Player"))
             return;
 
+        // Play collectible sound
         if (AudioManager.Instance != null && collectSound != null)
         {
             AudioManager.Instance.PlaySFX(collectSound);
         }
 
+        // Increase Calm Light count
         collectedLights += lightValue;
 
+        // Check if Calm Focus can be unlocked
+        if (CalmFocusAbility.Instance != null)
+        {
+            CalmFocusAbility.Instance.CheckUnlock(collectedLights);
+        }
+
+        // Update HUD counter
         if (UIManager.Instance != null)
         {
             UIManager.Instance.UpdateCalmLights(collectedLights, totalLights);
         }
 
-        // Load the next scene after collecting all Calm Lights
+        // Check if all Calm Lights have been collected
         if (collectedLights >= totalLights)
         {
             LoadNextScene();
         }
 
+        // Remove collected Calm Light
         Destroy(gameObject);
     }
 
