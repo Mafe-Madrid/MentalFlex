@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4a9e1afd56660ba448e0278478db618c
+guid: 867dbc128d7fc9e438d600a9067d098c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,106 +123,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Aban_Ability_0
+      name: Fragita_Idle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 5
+        y: 30
+        width: 535
+        height: 664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e289d27aef6b7c047bc2499454086f59
-      internalID: 464483062
+      spriteID: a0dd2542c16bccb41aa1bc9fb31b1498
+      internalID: -552239424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Aban_Ability_1
+      name: Fragita_Idle_1
       rect:
         serializedVersion: 2
-        x: 434
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 541
+        y: 31
+        width: 540
+        height: 640
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beb1237c14003614d9e0ae989af69a11
-      internalID: -135422618
+      spriteID: 116a242d682ff75489fc8fac2ee2cb2e
+      internalID: 6873657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Aban_Ability_2
+      name: Fragita_Idle_2
       rect:
         serializedVersion: 2
-        x: 868
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1089
+        y: 29
+        width: 537
+        height: 661
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afd9ae3deb8d6e44289d5fc34bd7e2ca
-      internalID: -542794702
+      spriteID: 1a53ccacfc54e734f8b7ac3711c3c5fc
+      internalID: 344931936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Aban_Ability_3
+      name: Fragita_Idle_3
       rect:
         serializedVersion: 2
-        x: 1302
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1628
+        y: 33
+        width: 544
+        height: 661
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02fda309775eebb4abf9375f697831c7
-      internalID: 1639162507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Aban_Ability_4
-      rect:
-        serializedVersion: 2
-        x: 1736
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4d750f1e1e158949b50b1a011d09fa3
-      internalID: -1582947584
+      spriteID: 592cc8a6014b80d4cab284e76a3a7645
+      internalID: 833330059
       vertices: []
       indices: 
       edges: []
@@ -230,7 +209,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 76e45cee9b4c0bc49a4a2daa1094286a
+    spriteID: a9c2562892b391b429dd2f30e48b14c2
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Aban_Ability_0: 464483062
-      Aban_Ability_1: -135422618
-      Aban_Ability_2: -542794702
-      Aban_Ability_3: 1639162507
-      Aban_Ability_4: -1582947584
+      Fragita_Idle_0: -552239424
+      Fragita_Idle_1: 6873657
+      Fragita_Idle_2: 344931936
+      Fragita_Idle_3: 833330059
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

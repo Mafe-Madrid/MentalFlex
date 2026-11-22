@@ -19,10 +19,13 @@ EditorBuildSettings:
     guid: fc436c470337e784fa54794077ae9782
   - enabled: 1
     path: Assets/Scenes/Zone03_FrustrationPath.unity
-    guid: 0b41bdf01352da840931e35d7aecf06e
+    guid: 88817733c3522b74fbfac842bf95b4fc
   - enabled: 1
     path: Assets/Scenes/Zone04_CalmGlade.unity
     guid: 136225aa05c12214d96d9f342a038321
+  - enabled: 1
+    path: Assets/Scenes/SC_End.unity
+    guid: 3bd97e0e4ccf5c04baefc93f3076928b
   - enabled: 1
     path: Assets/Scenes/SC_Credits.unity
     guid: 3023d333d65608949b191693b8a05673

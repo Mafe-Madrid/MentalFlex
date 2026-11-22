@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f2aef329a61d5ad4489e0d406d8fbb3c
+guid: 241555f62522ee44e825bacf1ed4ef91
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,127 +123,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fragita_Walk_0
+      name: Trista_Walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 362
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 29
+        width: 127
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33798389b2a3fc14a91bf784d41be240
-      internalID: -684550701
+      spriteID: 33f5c6521157656428e74cac96778b4b
+      internalID: 1746323765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fragita_Walk_1
+      name: Trista_Walk_1
       rect:
         serializedVersion: 2
-        x: 362
-        y: 0
-        width: 362
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 126
+        y: 31
+        width: 127
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d96974486561a0d4b86e9606008f3082
-      internalID: -444442040
+      spriteID: 5809349003de0a341881a127eff2b76b
+      internalID: -1355348366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fragita_Walk_2
+      name: Trista_Walk_2
       rect:
         serializedVersion: 2
-        x: 724
-        y: 0
-        width: 362
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 252
+        y: 30
+        width: 127
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c29fefea2bb2cb498cfae2e1400dfb8
-      internalID: 565067045
+      spriteID: 70a0a8b5b89cddc45bc1f387043255d9
+      internalID: 461000609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fragita_Walk_3
+      name: Trista_Walk_3
       rect:
         serializedVersion: 2
-        x: 1086
-        y: 0
-        width: 362
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 378
+        y: 27
+        width: 127
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 912b554945131f348a169a2cc87041bd
-      internalID: 274880253
+      spriteID: b66f37cf0327994458f4296ffe0787de
+      internalID: 859773617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fragita_Walk_4
+      name: Trista_Walk_4
       rect:
         serializedVersion: 2
-        x: 1448
-        y: 0
-        width: 362
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 504
+        y: 27
+        width: 127
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 687224adabe7be14fb9c0624e5a8d946
-      internalID: 550705473
+      spriteID: 930f4468a6b2e134e94bf56a7149de0b
+      internalID: 703278254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fragita_Walk_5
+      name: Trista_Walk_5
       rect:
         serializedVersion: 2
-        x: 1810
-        y: 0
-        width: 362
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 630
+        y: 27
+        width: 127
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57ec487a211380844a1bc6f1c4409362
-      internalID: -1753560053
+      spriteID: 18df677a0cf365d4cbfe4a1371c83588
+      internalID: -815844410
       vertices: []
       indices: 
       edges: []
@@ -251,7 +251,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 437662a31f91cef4ea68e5f3f2f4d1e7
+    spriteID: 195f8fcea25d96442b5b34c44d9b677d
     internalID: 0
     vertices: []
     indices: 
@@ -259,12 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fragita_Walk_0: -684550701
-      Fragita_Walk_1: -444442040
-      Fragita_Walk_2: 565067045
-      Fragita_Walk_3: 274880253
-      Fragita_Walk_4: 550705473
-      Fragita_Walk_5: -1753560053
+      Trista_Walk_0: 1746323765
+      Trista_Walk_1: -1355348366
+      Trista_Walk_2: 461000609
+      Trista_Walk_3: 859773617
+      Trista_Walk_4: 703278254
+      Trista_Walk_5: -815844410
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

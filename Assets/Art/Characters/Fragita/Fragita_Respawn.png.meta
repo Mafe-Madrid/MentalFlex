@@ -126,12 +126,12 @@ TextureImporter:
       name: Fragita_Respawn_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 543
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 26
+        y: 36
+        width: 517
+        height: 633
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: Fragita_Respawn_1
       rect:
         serializedVersion: 2
-        x: 543
-        y: 0
-        width: 543
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 575
+        y: 43
+        width: 511
+        height: 603
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,11 +169,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1086
-        y: 0
-        width: 543
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 45
+        width: 559
+        height: 593
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: Fragita_Respawn_3
       rect:
         serializedVersion: 2
-        x: 1629
-        y: 0
-        width: 543
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1669
+        y: 31
+        width: 503
+        height: 667
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

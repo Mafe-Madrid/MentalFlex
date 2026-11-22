@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -121,18 +121,216 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Zone04_CalmGlade_Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 297
+        width: 191
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3cf0a370bd2824a95cb093f18f562e
+      internalID: -1689896848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone04_CalmGlade_Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 624
+        width: 161
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5f34d889eb18846ad34e3a7ba8ff53
+      internalID: 644538692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone04_CalmGlade_Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 358
+        width: 208
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440643b30c0803f438331d7d37d9b408
+      internalID: 2031347848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone04_CalmGlade_Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 918
+        width: 287
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40156ed5833ed014babf186d5100fe25
+      internalID: 1769564766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone04_CalmGlade_Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 854
+        width: 238
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ba165aeeaf2444babb799a0d623d4e
+      internalID: 1156088235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone04_CalmGlade_Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 506
+        width: 172
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d9961cd1b167a428d9edb094ccb98c
+      internalID: 898289591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone04_CalmGlade_Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 734
+        width: 99
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321791804a66c73478e9636330283991
+      internalID: -145986685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone04_CalmGlade_Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1121
+        width: 217
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914f91e74190a594b94bcece1a7981a1
+      internalID: -1753270929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone04_CalmGlade_Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1095
+        width: 154
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a901a300d89ad409bc0127ed59784d
+      internalID: 849040251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3af1d6f775b380448951a6c124c183cd
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zone04_CalmGlade_Tileset_0: -1689896848
+      Zone04_CalmGlade_Tileset_1: 644538692
+      Zone04_CalmGlade_Tileset_2: 2031347848
+      Zone04_CalmGlade_Tileset_3: 1769564766
+      Zone04_CalmGlade_Tileset_4: 1156088235
+      Zone04_CalmGlade_Tileset_5: 898289591
+      Zone04_CalmGlade_Tileset_6: -145986685
+      Zone04_CalmGlade_Tileset_7: -1753270929
+      Zone04_CalmGlade_Tileset_8: 849040251
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

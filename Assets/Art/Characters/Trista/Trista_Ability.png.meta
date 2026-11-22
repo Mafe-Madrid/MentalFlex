@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 241555f62522ee44e825bacf1ed4ef91
+guid: d85847156c28f0f40b188e95fce84780
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,127 +123,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Trista_Walk_0
+      name: Trista_Ability_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 126.833336
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 398
+        y: 50
+        width: 406
+        height: 548
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33f5c6521157656428e74cac96778b4b
-      internalID: 1746323765
+      spriteID: b759f3ea465b3184483c641d9a0855a5
+      internalID: -1551353994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trista_Walk_1
+      name: Trista_Ability_2
       rect:
         serializedVersion: 2
-        x: 126
-        y: 0
-        width: 126.833336
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 835
+        y: 52
+        width: 434
+        height: 532
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5809349003de0a341881a127eff2b76b
-      internalID: -1355348366
+      spriteID: 53088af06fe5d2f41bb4024bcceabe9f
+      internalID: 1209831150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trista_Walk_2
+      name: Trista_Ability_3
       rect:
         serializedVersion: 2
-        x: 252
-        y: 0
-        width: 126.833336
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1279
+        y: 50
+        width: 434
+        height: 607
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70a0a8b5b89cddc45bc1f387043255d9
-      internalID: 461000609
+      spriteID: e9576954bb02bba45a930b86f59197cc
+      internalID: -74564397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trista_Walk_3
+      name: Trista_Ability_4
       rect:
         serializedVersion: 2
-        x: 378
-        y: 0
-        width: 126.833336
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1736
+        y: 48
+        width: 425
+        height: 627
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b66f37cf0327994458f4296ffe0787de
-      internalID: 859773617
+      spriteID: 567a49f60c46a92459e9f0e68932e1a4
+      internalID: 1884124160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trista_Walk_4
+      name: Trista_Ability_0
       rect:
         serializedVersion: 2
-        x: 504
-        y: 0
-        width: 126.833336
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 19
+        y: 49
+        width: 370
+        height: 604
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 930f4468a6b2e134e94bf56a7149de0b
-      internalID: 703278254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Trista_Walk_5
-      rect:
-        serializedVersion: 2
-        x: 630
-        y: 0
-        width: 126.833336
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18df677a0cf365d4cbfe4a1371c83588
-      internalID: -815844410
+      spriteID: 5f90e87502004d74498696670f3503f3
+      internalID: -1363600259
       vertices: []
       indices: 
       edges: []
@@ -251,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 195f8fcea25d96442b5b34c44d9b677d
+    spriteID: 34b892859d2dfb44db5ac77d81e65523
     internalID: 0
     vertices: []
     indices: 
@@ -259,12 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Trista_Walk_0: 1746323765
-      Trista_Walk_1: -1355348366
-      Trista_Walk_2: 461000609
-      Trista_Walk_3: 859773617
-      Trista_Walk_4: 703278254
-      Trista_Walk_5: -815844410
+      Trista_Ability_0: -1363600259
+      Trista_Ability_1: -1551353994
+      Trista_Ability_2: 1209831150
+      Trista_Ability_3: -74564397
+      Trista_Ability_4: 1884124160
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

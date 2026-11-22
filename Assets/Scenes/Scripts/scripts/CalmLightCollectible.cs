@@ -4,29 +4,29 @@ using UnityEngine.SceneManagement;
 public class CalmLightCollectible : MonoBehaviour
 {
     [Header("Audio Reference")]
-
     public AudioClip collectSound;
 
     [Header("Collectible Settings")]
-
     public int lightValue = 1;
 
     private static int collectedLights = 0;
     private static int totalLights = 0;
     private static int currentSceneBuildIndex = -1;
+
     private bool isCollected = false;
 
     private void Awake()
     {
         int sceneBuildIndex = SceneManager.GetActiveScene().buildIndex;
 
-        // Reset the counters when entering a new scene
-
+        // Reset counters when entering a new scene
         if (currentSceneBuildIndex != sceneBuildIndex)
         {
             currentSceneBuildIndex = sceneBuildIndex;
             collectedLights = 0;
-            totalLights = FindObjectsOfType<CalmLightCollectible>(true).Length;
+
+            totalLights =
+                FindObjectsOfType<CalmLightCollectible>(true).Length;
         }
     }
 
@@ -34,7 +34,10 @@ public class CalmLightCollectible : MonoBehaviour
     {
         if (UIManager.Instance != null)
         {
-            UIManager.Instance.UpdateCalmLights(collectedLights, totalLights);
+            UIManager.Instance.UpdateCalmLights(
+                collectedLights,
+                totalLights
+            );
         }
     }
 
@@ -45,20 +48,36 @@ public class CalmLightCollectible : MonoBehaviour
 
         isCollected = true;
 
-        if (AudioManager.Instance != null && collectSound != null)
+        // Play collection sound
+        if (AudioManager.Instance != null &&
+            collectSound != null)
         {
-            AudioManager.Instance.PlaySFX(collectSound);
+            AudioManager.Instance.PlaySFX(
+                collectSound
+            );
         }
 
+        // Increase Calm Light counter
         collectedLights += lightValue;
 
-        if (UIManager.Instance != null)
+        // Notify Calm Focus ability
+        if (CalmFocusAbility.Instance != null)
         {
-            UIManager.Instance.UpdateCalmLights(collectedLights, totalLights);
+            CalmFocusAbility.Instance.CheckUnlock(
+                collectedLights
+            );
         }
 
-        // Load next scene when all lights in the scene are collected
+        // Update HUD
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.UpdateCalmLights(
+                collectedLights,
+                totalLights
+            );
+        }
 
+        // Load next scene when all lights are collected
         if (collectedLights >= totalLights)
         {
             LoadNextScene();
@@ -69,15 +88,19 @@ public class CalmLightCollectible : MonoBehaviour
 
     private void LoadNextScene()
     {
-        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        int nextSceneIndex =
+            SceneManager.GetActiveScene().buildIndex + 1;
 
-        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        if (nextSceneIndex <
+            SceneManager.sceneCountInBuildSettings)
         {
             SceneManager.LoadScene(nextSceneIndex);
         }
         else
         {
-            Debug.Log("No next scene configured in Build Settings.");
+            Debug.Log(
+                "No next scene configured in Build Settings."
+            );
         }
     }
 }
