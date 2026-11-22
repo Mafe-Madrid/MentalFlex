@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
+
     private bool isGrounded;
 
     [Header("Visual")]
@@ -52,6 +53,7 @@ public class PlayerController : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
+        // Check if the player is touching the ground
         if (groundCheck != null)
         {
             isGrounded = Physics2D.OverlapCircle(
@@ -61,22 +63,29 @@ public class PlayerController : MonoBehaviour
             );
         }
 
+        // Update animation parameters
         if (characterAnimator != null)
         {
             characterAnimator.SetBool("IsGrounded", isGrounded);
-            characterAnimator.SetFloat("Speed", Mathf.Abs(horizontalInput));
+            characterAnimator.SetFloat(
+                "Speed",
+                Mathf.Abs(horizontalInput)
+            );
         }
 
+        // Jump
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             Jump();
         }
 
+        // Ability
         if (Input.GetKeyDown(skillKey) && !isSkillActive)
         {
             ActivateRegulationSkill();
         }
 
+        // Ability duration
         if (isSkillActive)
         {
             skillTimer -= Time.deltaTime;
@@ -126,14 +135,28 @@ public class PlayerController : MonoBehaviour
             );
         }
 
+        // Immediately tell the Animator that the player
+        // is no longer touching the ground.
+        isGrounded = false;
+
         if (characterAnimator != null)
         {
-            characterAnimator.SetTrigger("Jump");
+            characterAnimator.SetBool(
+                "IsGrounded",
+                false
+            );
+
+            characterAnimator.SetTrigger(
+                "Jump"
+            );
         }
 
-        if (AudioManager.Instance != null && jumpSound != null)
+        if (AudioManager.Instance != null &&
+            jumpSound != null)
         {
-            AudioManager.Instance.PlaySFX(jumpSound);
+            AudioManager.Instance.PlaySFX(
+                jumpSound
+            );
         }
     }
 
@@ -144,12 +167,17 @@ public class PlayerController : MonoBehaviour
 
         if (characterAnimator != null)
         {
-            characterAnimator.SetTrigger("Ability");
+            characterAnimator.SetTrigger(
+                "Ability"
+            );
         }
 
-        if (AudioManager.Instance != null && skillSound != null)
+        if (AudioManager.Instance != null &&
+            skillSound != null)
         {
-            AudioManager.Instance.PlaySFX(skillSound);
+            AudioManager.Instance.PlaySFX(
+                skillSound
+            );
         }
     }
 
@@ -157,7 +185,9 @@ public class PlayerController : MonoBehaviour
     {
         if (characterAnimator != null)
         {
-            characterAnimator.SetTrigger("Respawn");
+            characterAnimator.SetTrigger(
+                "Respawn"
+            );
         }
     }
 

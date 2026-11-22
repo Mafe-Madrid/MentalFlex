@@ -13,11 +13,6 @@ public class CharacterAvatarSelector : MonoBehaviour
 
     private void Start()
     {
-        // TEMPORARY:
-        // This forces Trista when testing directly from Zone 1.
-        PlayerPrefs.SetString("SelectedCharacter", "Trista");
-        PlayerPrefs.Save();
-
         string selectedCharacter =
             PlayerPrefs.GetString("SelectedCharacter", "Aban");
 
