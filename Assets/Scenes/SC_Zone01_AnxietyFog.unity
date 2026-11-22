@@ -203,14 +203,23 @@ PrefabInstance:
       propertyPath: m_TagString
       value: CalmLight
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5194279809820856217, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7614006889067565473, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1940614929}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8927927644751529097, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1912815500}
   m_SourcePrefab: {fileID: 100100000, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+--- !u!1 &26144438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8927927644751529097, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+  m_PrefabInstance: {fileID: 26144437}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &27943968 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7614006889067565473, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
@@ -396,10 +405,11 @@ GameObject:
   - component: {fileID: 61858283}
   - component: {fileID: 61858282}
   - component: {fileID: 61858281}
-  - component: {fileID: 61858280}
-  - component: {fileID: 61858279}
   - component: {fileID: 61858285}
   - component: {fileID: 61858286}
+  - component: {fileID: 61858288}
+  - component: {fileID: 61858287}
+  - component: {fileID: 61858289}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -407,48 +417,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &61858279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61858278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 498e2c40aa660f04fb6eaaffc1e38906, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 4
-  jumpForce: 9
-  groundCheck: {fileID: 1536318963}
-  groundCheckRadius: 0.2
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  abanSprite: {fileID: 129974287}
-  abanAnimator: {fileID: 129974286}
-  jumpSound: {fileID: 0}
-  skillSound: {fileID: 0}
-  skillKey: 101
-  isSkillActive: 0
---- !u!114 &61858280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61858278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a8a378a8c2be6640918034d1d19b60b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentCheckpoint: {x: 0, y: 0, z: 0}
-  abanAnimator: {fileID: 0}
-  calmLightsCollected: 0
-  totalCalmLights: 5
-  collectSound: {fileID: 0}
 --- !u!61 &61858281
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -628,6 +596,63 @@ MonoBehaviour:
   aban: {fileID: 129974284}
   trista: {fileID: 1022363103}
   fragita: {fileID: 163920927}
+--- !u!114 &61858287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61858278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e88672c4c52fef04fa3a3f07a07fc162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentCheckpoint: {x: 0, y: 0, z: 0}
+  characterAnimator: {fileID: 61858285}
+  hazardSound: {fileID: 8300000, guid: 9169c0f7e21c7994c8cc35d915d1db7e, type: 3}
+  checkpointSound: {fileID: 8300000, guid: a436ba5b708840a44b9130855e83701a, type: 3}
+--- !u!114 &61858288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61858278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a500eac502f0b43b96e84ea7c9840c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpForce: 10
+  groundCheck: {fileID: 1536318963}
+  groundCheckRadius: 0.2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  characterSprite: {fileID: 0}
+  characterAnimator: {fileID: 129974286}
+  jumpSound: {fileID: 0}
+  skillSound: {fileID: 0}
+  skillKey: 101
+  isSkillActive: 0
+  skillDuration: 4
+--- !u!114 &61858289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61858278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5274241e7cdee9047bdf5bdcc9e1cca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cycleKey: 113
+  startingCharacterIndex: 0
+  switchSound: {fileID: 0}
 --- !u!1 &77523353
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,7 +1335,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: -1910741902, guid: c6699520c6278d7419fb283460608251, type: 3}
+  m_Sprite: {fileID: 464483062, guid: 4a9e1afd56660ba448e0278478db618c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1331,6 +1356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 163920929}
   - component: {fileID: 163920928}
+  - component: {fileID: 163920930}
   m_Layer: 0
   m_Name: Fragita
   m_TagString: Untagged
@@ -1405,6 +1431,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 61858284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &163920930
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163920927}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c305705eb2d533148bea4ee51457a859, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &229907852
 GameObject:
   m_ObjectHideFlags: 0
@@ -1908,7 +1955,6 @@ GameObject:
   - component: {fileID: 330585546}
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
-  - component: {fileID: 330585547}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1990,18 +2036,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &330585547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &343653639
 GameObject:
   m_ObjectHideFlags: 0
@@ -2185,7 +2219,6 @@ GameObject:
   m_Component:
   - component: {fileID: 410087041}
   - component: {fileID: 410087040}
-  - component: {fileID: 410087042}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -2270,18 +2303,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &410087042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410087039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &475573429
 GameObject:
   m_ObjectHideFlags: 0
@@ -3033,8 +3054,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3641,7 +3662,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 832575519}
-  - component: {fileID: 832575518}
   m_Layer: 0
   m_Name: Global Volume
   m_TagString: Untagged
@@ -3649,18 +3669,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &832575518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832575517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &832575519
 Transform:
   m_ObjectHideFlags: 0
@@ -4260,14 +4268,37 @@ PrefabInstance:
       propertyPath: m_TagString
       value: CalmLight
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5194279809820856217, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7614006889067565473, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1795433497}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8927927644751529097, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 993980874}
   m_SourcePrefab: {fileID: 100100000, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+--- !u!1 &993980873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8927927644751529097, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+  m_PrefabInstance: {fileID: 993980872}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &993980874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993980873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e824391c5369fc409777cbd6858ca13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectSound: {fileID: 8300000, guid: 2dee8da9a01b589429addec961d648c9, type: 3}
+  lightValue: 1
 --- !u!1 &1004067140
 GameObject:
   m_ObjectHideFlags: 0
@@ -4530,6 +4561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1022363105}
   - component: {fileID: 1022363104}
+  - component: {fileID: 1022363106}
   m_Layer: 0
   m_Name: Trista
   m_TagString: Untagged
@@ -4604,6 +4636,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 61858284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1022363106
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022363103}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 51efb5edc86aa5e4db6e157cec0dfd81, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1042006722
 GameObject:
   m_ObjectHideFlags: 0
@@ -5802,8 +5855,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6662,14 +6715,37 @@ PrefabInstance:
       propertyPath: m_TagString
       value: CalmLight
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5194279809820856217, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7614006889067565473, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1893950692}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8927927644751529097, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1805424532}
   m_SourcePrefab: {fileID: 100100000, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+--- !u!1 &1805424531 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8927927644751529097, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+  m_PrefabInstance: {fileID: 1805424530}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1805424532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805424531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e824391c5369fc409777cbd6858ca13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectSound: {fileID: 8300000, guid: 2dee8da9a01b589429addec961d648c9, type: 3}
+  lightValue: 1
 --- !u!1 &1826380874
 GameObject:
   m_ObjectHideFlags: 0
@@ -6764,7 +6840,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1833006270}
   - component: {fileID: 1833006269}
-  - component: {fileID: 1833006268}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -6772,18 +6847,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1833006268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833006267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule
 --- !u!114 &1833006269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6987,6 +7050,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7614006889067565473, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
   m_PrefabInstance: {fileID: 26144437}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1912815500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26144438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e824391c5369fc409777cbd6858ca13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectSound: {fileID: 8300000, guid: 2dee8da9a01b589429addec961d648c9, type: 3}
+  lightValue: 1
 --- !u!1 &1923100500
 GameObject:
   m_ObjectHideFlags: 0
@@ -7956,14 +8033,37 @@ PrefabInstance:
       propertyPath: m_TagString
       value: CalmLight
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5194279809820856217, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7614006889067565473, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
       insertIndex: -1
       addedObject: {fileID: 950174886}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8927927644751529097, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2042949022}
   m_SourcePrefab: {fileID: 100100000, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+--- !u!1 &2042949021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8927927644751529097, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+  m_PrefabInstance: {fileID: 2042949020}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2042949022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042949021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e824391c5369fc409777cbd6858ca13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectSound: {fileID: 8300000, guid: 2dee8da9a01b589429addec961d648c9, type: 3}
+  lightValue: 1
 --- !u!1 &2051083919
 GameObject:
   m_ObjectHideFlags: 0
@@ -8342,8 +8442,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8689,14 +8789,37 @@ PrefabInstance:
       propertyPath: m_TagString
       value: CalmLight
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5194279809820856217, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7614006889067565473, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1042006723}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8927927644751529097, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 287665995278939904}
   m_SourcePrefab: {fileID: 100100000, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+--- !u!1 &287665995278939903 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8927927644751529097, guid: cddc0069513b08a408b73b9e478ca720, type: 3}
+  m_PrefabInstance: {fileID: 287665995278939902}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &287665995278939904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287665995278939903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e824391c5369fc409777cbd6858ca13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectSound: {fileID: 8300000, guid: 2dee8da9a01b589429addec961d648c9, type: 3}
+  lightValue: 1
 --- !u!1001 &6179722153936035846
 PrefabInstance:
   m_ObjectHideFlags: 0
