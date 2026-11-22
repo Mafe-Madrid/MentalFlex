@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a80b66bfb85620e41847a3ad45c3c801
+guid: f2aef329a61d5ad4489e0d406d8fbb3c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,106 +123,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fragita_Ability_0
+      name: Fragita_Walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 101
+        width: 362
+        height: 554
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d624101a521b824fa020fefff6817e3
-      internalID: -1945838102
+      spriteID: 33798389b2a3fc14a91bf784d41be240
+      internalID: -684550701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fragita_Ability_1
+      name: Fragita_Walk_1
       rect:
         serializedVersion: 2
-        x: 434
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 362
+        y: 101
+        width: 362
+        height: 518
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b506ef7e656c2bf4b9e89bdfbb93037d
-      internalID: 1897093741
+      spriteID: d96974486561a0d4b86e9606008f3082
+      internalID: -444442040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fragita_Ability_2
+      name: Fragita_Walk_2
       rect:
         serializedVersion: 2
-        x: 868
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 725
+        y: 97
+        width: 362
+        height: 520
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4e8f9f033ef572418151ebbef73a1c5
-      internalID: -792878199
+      spriteID: 7c29fefea2bb2cb498cfae2e1400dfb8
+      internalID: 565067045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fragita_Ability_3
+      name: Fragita_Walk_3
       rect:
         serializedVersion: 2
-        x: 1302
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1086
+        y: 96
+        width: 362
+        height: 522
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2eaf3c99d54b4f46b0ed536a06bbd42
-      internalID: 1649252222
+      spriteID: 912b554945131f348a169a2cc87041bd
+      internalID: 274880253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fragita_Ability_4
+      name: Fragita_Walk_4
       rect:
         serializedVersion: 2
-        x: 1736
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1448
+        y: 97
+        width: 362
+        height: 520
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb72867c82289cb469f6f60068399628
-      internalID: -810858586
+      spriteID: 687224adabe7be14fb9c0624e5a8d946
+      internalID: 550705473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragita_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 96
+        width: 362
+        height: 523
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ec487a211380844a1bc6f1c4409362
+      internalID: -1753560053
       vertices: []
       indices: 
       edges: []
@@ -230,7 +251,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6cc3588db8ec6df418a06c0b5eb6f476
+    spriteID: 437662a31f91cef4ea68e5f3f2f4d1e7
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fragita_Ability_0: -1945838102
-      Fragita_Ability_1: 1897093741
-      Fragita_Ability_2: -792878199
-      Fragita_Ability_3: 1649252222
-      Fragita_Ability_4: -810858586
+      Fragita_Walk_0: -684550701
+      Fragita_Walk_1: -444442040
+      Fragita_Walk_2: 565067045
+      Fragita_Walk_3: 274880253
+      Fragita_Walk_4: 550705473
+      Fragita_Walk_5: -1753560053
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

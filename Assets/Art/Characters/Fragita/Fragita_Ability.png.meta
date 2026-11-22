@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 91ae1a9a8e96dd34984718e716cc158e
+guid: a80b66bfb85620e41847a3ad45c3c801
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,85 +123,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fragita_Respawn_0
+      name: Fragita_Ability_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 543
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 36
+        width: 434
+        height: 472
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7cd976cfed5e324da1e5d13dc493df7
-      internalID: 753576064
+      spriteID: 4d624101a521b824fa020fefff6817e3
+      internalID: -1945838102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fragita_Respawn_1
+      name: Fragita_Ability_1
       rect:
         serializedVersion: 2
-        x: 543
-        y: 0
-        width: 543
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 434
+        y: 41
+        width: 434
+        height: 564
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfa50614d10bd45429ce69315b2a167c
-      internalID: 1044252605
+      spriteID: b506ef7e656c2bf4b9e89bdfbb93037d
+      internalID: 1897093741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fragita_Respawn_2
+      name: Fragita_Ability_2
       rect:
         serializedVersion: 2
-        x: 1086
-        y: 0
-        width: 543
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 820
+        y: 40
+        width: 451
+        height: 583
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2ab9b820bf3bb14aa240ca3977d3bd2
-      internalID: 451175097
+      spriteID: d4e8f9f033ef572418151ebbef73a1c5
+      internalID: -792878199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fragita_Respawn_3
+      name: Fragita_Ability_3
       rect:
         serializedVersion: 2
-        x: 1629
-        y: 0
-        width: 543
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1270
+        y: 40
+        width: 440
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20a95b0e92391014a870f3022108adfb
-      internalID: -1100577429
+      spriteID: f2eaf3c99d54b4f46b0ed536a06bbd42
+      internalID: 1649252222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragita_Ability_4
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 40
+        width: 461
+        height: 635
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb72867c82289cb469f6f60068399628
+      internalID: -810858586
       vertices: []
       indices: 
       edges: []
@@ -209,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c6ec6120c3ab2cc4c9a18b679709c7ce
+    spriteID: 6cc3588db8ec6df418a06c0b5eb6f476
     internalID: 0
     vertices: []
     indices: 
@@ -217,10 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fragita_Respawn_0: 753576064
-      Fragita_Respawn_1: 1044252605
-      Fragita_Respawn_2: 451175097
-      Fragita_Respawn_3: -1100577429
+      Fragita_Ability_0: -1945838102
+      Fragita_Ability_1: 1897093741
+      Fragita_Ability_2: -792878199
+      Fragita_Ability_3: 1649252222
+      Fragita_Ability_4: -810858586
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

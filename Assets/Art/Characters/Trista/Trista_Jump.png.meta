@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 241555f62522ee44e825bacf1ed4ef91
+guid: 1e0185645654c304f92d69965e59a8d5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Trista_Walk_0
+      name: Trista_Jump_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 126.833336
-        height: 253
+        y: 25
+        width: 543
+        height: 493
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,113 +137,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33f5c6521157656428e74cac96778b4b
-      internalID: 1746323765
+      spriteID: a2d0ad5f78bb11349b47f737ca021fc9
+      internalID: 1219883220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trista_Walk_1
+      name: Trista_Jump_1
       rect:
         serializedVersion: 2
-        x: 126
-        y: 0
-        width: 126.833336
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 543
+        y: 27
+        width: 543
+        height: 577
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5809349003de0a341881a127eff2b76b
-      internalID: -1355348366
+      spriteID: 8c03fbda4fa115246a445dd30d4fde0f
+      internalID: 38224850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trista_Walk_2
+      name: Trista_Jump_2
       rect:
         serializedVersion: 2
-        x: 252
-        y: 0
-        width: 126.833336
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1085
+        y: 91
+        width: 543
+        height: 589
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70a0a8b5b89cddc45bc1f387043255d9
-      internalID: 461000609
+      spriteID: ce6bcd56fd9bc464ca941f7eb889f0d0
+      internalID: 716823012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trista_Walk_3
+      name: Trista_Jump_3
       rect:
         serializedVersion: 2
-        x: 378
-        y: 0
-        width: 126.833336
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1629
+        y: 153
+        width: 543
+        height: 563
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b66f37cf0327994458f4296ffe0787de
-      internalID: 859773617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Trista_Walk_4
-      rect:
-        serializedVersion: 2
-        x: 504
-        y: 0
-        width: 126.833336
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 930f4468a6b2e134e94bf56a7149de0b
-      internalID: 703278254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Trista_Walk_5
-      rect:
-        serializedVersion: 2
-        x: 630
-        y: 0
-        width: 126.833336
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18df677a0cf365d4cbfe4a1371c83588
-      internalID: -815844410
+      spriteID: 15413a392a741134493ec9be67b3294a
+      internalID: -8297715
       vertices: []
       indices: 
       edges: []
@@ -251,7 +209,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 195f8fcea25d96442b5b34c44d9b677d
+    spriteID: dd715534d6a8c7c47aeec18aeb2456b7
     internalID: 0
     vertices: []
     indices: 
@@ -259,12 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Trista_Walk_0: 1746323765
-      Trista_Walk_1: -1355348366
-      Trista_Walk_2: 461000609
-      Trista_Walk_3: 859773617
-      Trista_Walk_4: 703278254
-      Trista_Walk_5: -815844410
+      Trista_Jump_0: 1219883220
+      Trista_Jump_1: 38224850
+      Trista_Jump_2: 716823012
+      Trista_Jump_3: -8297715
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

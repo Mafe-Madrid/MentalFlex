@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4a9e1afd56660ba448e0278478db618c
+guid: 91ae1a9a8e96dd34984718e716cc158e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,106 +123,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Aban_Ability_0
+      name: Fragita_Respawn_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 26
+        y: 36
+        width: 517
+        height: 633
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e289d27aef6b7c047bc2499454086f59
-      internalID: 464483062
+      spriteID: f7cd976cfed5e324da1e5d13dc493df7
+      internalID: 753576064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Aban_Ability_1
+      name: Fragita_Respawn_1
       rect:
         serializedVersion: 2
-        x: 434
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 575
+        y: 43
+        width: 511
+        height: 603
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beb1237c14003614d9e0ae989af69a11
-      internalID: -135422618
+      spriteID: bfa50614d10bd45429ce69315b2a167c
+      internalID: 1044252605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Aban_Ability_2
+      name: Fragita_Respawn_2
       rect:
         serializedVersion: 2
-        x: 868
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1086
+        y: 45
+        width: 559
+        height: 593
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afd9ae3deb8d6e44289d5fc34bd7e2ca
-      internalID: -542794702
+      spriteID: a2ab9b820bf3bb14aa240ca3977d3bd2
+      internalID: 451175097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Aban_Ability_3
+      name: Fragita_Respawn_3
       rect:
         serializedVersion: 2
-        x: 1302
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1669
+        y: 31
+        width: 503
+        height: 667
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02fda309775eebb4abf9375f697831c7
-      internalID: 1639162507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Aban_Ability_4
-      rect:
-        serializedVersion: 2
-        x: 1736
-        y: 0
-        width: 434.4
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4d750f1e1e158949b50b1a011d09fa3
-      internalID: -1582947584
+      spriteID: 20a95b0e92391014a870f3022108adfb
+      internalID: -1100577429
       vertices: []
       indices: 
       edges: []
@@ -230,7 +209,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 76e45cee9b4c0bc49a4a2daa1094286a
+    spriteID: c6ec6120c3ab2cc4c9a18b679709c7ce
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Aban_Ability_0: 464483062
-      Aban_Ability_1: -135422618
-      Aban_Ability_2: -542794702
-      Aban_Ability_3: 1639162507
-      Aban_Ability_4: -1582947584
+      Fragita_Respawn_0: 753576064
+      Fragita_Respawn_1: 1044252605
+      Fragita_Respawn_2: 451175097
+      Fragita_Respawn_3: -1100577429
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

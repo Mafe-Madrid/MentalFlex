@@ -2,31 +2,76 @@ using UnityEngine;
 
 public class CharacterAvatarSelector : MonoBehaviour
 {
+    [Header("Characters")]
     public GameObject aban;
     public GameObject trista;
     public GameObject fragita;
 
+    [Header("Player References")]
+    public PlayerController playerController;
+    public PlayerHealthAndRespawn playerHealth;
+
     private void Start()
     {
-        string selectedCharacter = PlayerPrefs.GetString("SelectedCharacter", "Aban");
+        // TEMPORARY:
+        // This forces Trista when testing directly from Zone 1.
+        PlayerPrefs.SetString("SelectedCharacter", "Trista");
+        PlayerPrefs.Save();
+
+        string selectedCharacter =
+            PlayerPrefs.GetString("SelectedCharacter", "Aban");
 
         aban.SetActive(false);
         trista.SetActive(false);
         fragita.SetActive(false);
 
+        GameObject selectedAvatar;
+
         switch (selectedCharacter)
         {
             case "Trista":
-                trista.SetActive(true);
+                selectedAvatar = trista;
                 break;
 
             case "Fragita":
-                fragita.SetActive(true);
+                selectedAvatar = fragita;
                 break;
 
             default:
-                aban.SetActive(true);
+                selectedAvatar = aban;
                 break;
+        }
+
+        ActivateCharacter(selectedAvatar);
+    }
+
+    private void ActivateCharacter(GameObject character)
+    {
+        if (character == null)
+            return;
+
+        character.SetActive(true);
+
+        SpriteRenderer spriteRenderer =
+            character.GetComponentInChildren<SpriteRenderer>();
+
+        Animator animator =
+            character.GetComponentInChildren<Animator>();
+
+        if (playerController != null)
+        {
+            playerController.characterSprite = spriteRenderer;
+            playerController.characterAnimator = animator;
+
+            // Trista sprites are originally facing left.
+            // Aban and Fragita face right.
+            playerController.characterFacesLeft =
+                character == trista;
+        }
+
+        if (playerHealth != null)
+        {
+            playerHealth.characterAnimator = animator;
         }
     }
 }

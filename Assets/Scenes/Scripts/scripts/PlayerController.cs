@@ -1,35 +1,30 @@
 using UnityEngine;
 
-
-// Controls player movement, jumping, animations,
+// Controls player movement, jumping, animations
 // Script corrected by Gemini AI
 
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement Settings")]
-
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
 
     [Header("Ground Check")]
-
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
     private bool isGrounded;
 
     [Header("Visual")]
-
     public SpriteRenderer characterSprite;
     public Animator characterAnimator;
+    public bool characterFacesLeft = false;
 
     [Header("Audio Clips")]
-
     public AudioClip jumpSound;
     public AudioClip skillSound;
 
     [Header("Skill Settings")]
-
     public KeyCode skillKey = KeyCode.E;
     public bool isSkillActive = false;
     public float skillDuration = 4f;
@@ -41,10 +36,12 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+
         if (characterSprite == null)
         {
             characterSprite = GetComponentInChildren<SpriteRenderer>();
         }
+
         if (characterAnimator == null)
         {
             characterAnimator = GetComponentInChildren<Animator>();
@@ -83,6 +80,7 @@ public class PlayerController : MonoBehaviour
         if (isSkillActive)
         {
             skillTimer -= Time.deltaTime;
+
             if (skillTimer <= 0f)
             {
                 isSkillActive = false;
@@ -110,11 +108,11 @@ public class PlayerController : MonoBehaviour
 
         if (horizontalInput > 0f)
         {
-            characterSprite.flipX = false;
+            characterSprite.flipX = characterFacesLeft;
         }
         else if (horizontalInput < 0f)
         {
-            characterSprite.flipX = true;
+            characterSprite.flipX = !characterFacesLeft;
         }
     }
 
@@ -168,7 +166,11 @@ public class PlayerController : MonoBehaviour
         if (groundCheck != null)
         {
             Gizmos.color = Color.yellow;
-            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+
+            Gizmos.DrawWireSphere(
+                groundCheck.position,
+                groundCheckRadius
+            );
         }
     }
 }

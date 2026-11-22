@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2b4898f0f0b7b8a4daf0b612d5ab4df9
+guid: 37825aa666cc3bf4e9aa599de7d2523f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Trista_Idle_0
+      name: Fragita_Jump_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 0
-        width: 523
-        height: 724
+        x: 0
+        y: 20
+        width: 543
+        height: 513
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a26ee54a1690e4f8d76995036b4765
-      internalID: 385741908
+      spriteID: ab392de5d7eb0914c820d3cb8ba27b2b
+      internalID: -1800684101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trista_Idle_1
+      name: Fragita_Jump_1
       rect:
         serializedVersion: 2
-        x: 554
-        y: 0
-        width: 538
-        height: 724
+        x: 543
+        y: 26
+        width: 543
+        height: 565
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea137cf0efcf67342baa526923bf4fbd
-      internalID: 1181074752
+      spriteID: a699ef7092edc0e439fb8cc0534670e2
+      internalID: 845558041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trista_Idle_2
+      name: Fragita_Jump_2
       rect:
         serializedVersion: 2
-        x: 1093
-        y: 0
-        width: 542
-        height: 724
+        x: 1087
+        y: 49
+        width: 543
+        height: 646
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec9bbe10adf02e14396ce84ab152fbf7
-      internalID: -1239408904
+      spriteID: eb6ecea8bd72832498e28024119ab72a
+      internalID: -1167912191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trista_Idle_3
+      name: Fragita_Jump_3
       rect:
         serializedVersion: 2
-        x: 1645
-        y: 0
-        width: 511
-        height: 724
+        x: 1629
+        y: 96
+        width: 543
+        height: 606
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12295d783df41524e9f82962a5a9cc35
-      internalID: 77061186
+      spriteID: 21648636567e2a44e857f6857481c86b
+      internalID: 957742382
       vertices: []
       indices: 
       edges: []
@@ -209,7 +209,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 17a66fd81dfb8ad489e8cd6de327b29d
+    spriteID: e88d75a0e924beb498847bfb6d6794ad
     internalID: 0
     vertices: []
     indices: 
@@ -217,13 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Trista_Idle_0: 385741908
-      Trista_Idle_1: 1181074752
-      Trista_Idle_2: -1239408904
-      Trista_Idle_3: 77061186
-      Trista_Idle_5: 1634380908
-      Trista_Idle_6: 29699860
-      Trista_Idle_7: -1880576634
+      Fragita_Jump_0: -1800684101
+      Fragita_Jump_1: 845558041
+      Fragita_Jump_2: -1167912191
+      Fragita_Jump_3: 957742382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

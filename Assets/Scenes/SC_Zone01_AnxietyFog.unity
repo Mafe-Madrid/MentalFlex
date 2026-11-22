@@ -497,7 +497,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61858278}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -556,8 +556,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1536318963}
-  - {fileID: 129974285}
   - {fileID: 163920929}
+  - {fileID: 129974285}
   - {fileID: 1022363105}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -597,6 +597,8 @@ MonoBehaviour:
   aban: {fileID: 129974284}
   trista: {fileID: 1022363103}
   fragita: {fileID: 163920927}
+  playerController: {fileID: 61858288}
+  playerHealth: {fileID: 61858287}
 --- !u!114 &61858287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -633,7 +635,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   characterSprite: {fileID: 0}
-  characterAnimator: {fileID: 129974286}
+  characterAnimator: {fileID: 0}
   jumpSound: {fileID: 0}
   skillSound: {fileID: 0}
   skillKey: 101
@@ -646,7 +648,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61858278}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5274241e7cdee9047bdf5bdcc9e1cca0, type: 3}
   m_Name: 
@@ -1527,7 +1529,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -552239424, guid: 867dbc128d7fc9e438d600a9067d098c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3177,8 +3179,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4963,7 +4965,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022363103}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6428,8 +6430,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7496,8 +7498,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9366,8 +9368,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: d5cf5cee14c2eb148849e3bee59113ab, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9752,6 +9754,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1097869120075810255, guid: 9b9c2eb6a7c7efe4185a2d2b3773533b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6209764223701442938, guid: 9b9c2eb6a7c7efe4185a2d2b3773533b, type: 3}
       propertyPath: m_LocalScale.x
       value: 27.3
